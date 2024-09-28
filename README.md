@@ -22,14 +22,6 @@
     docker-compose up -d
     ```
 
-## 使用方法
-
-1. テストスクリプトを作成し、`tests`ディレクトリに配置します。
-2. 以下のコマンドでテストを実行します。
-    ```bash
-    docker-compose run test
-    ```
-
 ## webdriverインスタンス設定およびoption設定
 
 ```python
