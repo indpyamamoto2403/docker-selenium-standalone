@@ -48,11 +48,12 @@ chrome_options.add_argument("--disable-dev-shm-usage")
 chrome_options.add_argument("--start-maximized")  # ブラウザを最大化
 chrome_options.add_argument("--disable-infobars")  # 情報バーを無効化
 chrome_options.add_argument("--disable-extensions")  # 拡張機能を無効化
-
+#
 driver = webdriver.Remote(command_executor=selenium_url, options=chrome_options)
 
+```
 
-## VNCでのSeleniumの閲覧方法
+## VNCでのSeleniumのリモート閲覧方法
 
 1. Dockerコンテナが起動していることを確認します。
 2. VNCクライアントを使用して、以下の情報で接続します。
